@@ -1,0 +1,100 @@
+## World Type name
+generator.EarthCubic=地球
+
+## GUI options
+terraplusplus.gui.header=Terra++世界選項
+terraplusplus.gui.projection=投影法
+terraplusplus.gui.cwg=CubicWorldGen方案集
+terraplusplus.gui.use_default_heights=預設高程資料集
+terraplusplus.gui.use_default_trees=預設植被資料集
+terraplusplus.gui.skip_chunk_population=原版區塊填充器
+terraplusplus.gui.skip_biome_decoration=原版生態域裝飾器
+terraplusplus.gui.world_size_header=世界尺寸約略：
+terraplusplus.gui.world_size_numbers=%s x %s 方塊
+terraplusplus.gui.world_info=方向依循Minecraft，粉紅點為Minecraft座標0,0。
+
+## Presets
+terraplusplus.presetscreen.title=選擇一個世界方案以開始，或選擇「自訂」取得更多選項。
+terraplusplus.preset.default=預設
+terraplusplus.preset.bte=Build the Earth
+terraplusplus.preset.advanced=自訂
+
+## Transformations
+terraplusplus.gui.transformation.add=添加轉換
+terraplusplus.gui.transformation.clamp=制動
+terraplusplus.gui.transformation.clamp.minX=最小值X
+terraplusplus.gui.transformation.clamp.maxX=最大值X
+terraplusplus.gui.transformation.clamp.minY=最小值Y
+terraplusplus.gui.transformation.clamp.maxY=最大值Y
+terraplusplus.gui.transformation.flip_horizontal=水平翻轉
+terraplusplus.gui.transformation.flip_vertical=垂直翻轉
+terraplusplus.gui.transformation.offset=偏置
+terraplusplus.gui.transformation.offset.dx=X
+terraplusplus.gui.transformation.offset.dy=Y
+terraplusplus.gui.transformation.rotate=旋轉
+terraplusplus.gui.transformation.rotate.by=角度
+terraplusplus.gui.transformation.scale=比例
+terraplusplus.gui.transformation.scale.x=X
+terraplusplus.gui.transformation.scale.y=Y
+terraplusplus.gui.transformation.swap_axes=調換坐標軸
+
+## Projection types
+terraplusplus.gui.projection.centered_mercator=麥卡托
+terraplusplus.gui.projection.web_mercator=Web麥卡托
+terraplusplus.gui.projection.web_mercator.zoom=縮放
+terraplusplus.gui.projection.transverse_mercator=橫麥卡托
+terraplusplus.gui.projection.equirectangular=等距長方
+terraplusplus.gui.projection.sinusoidal=正弦
+terraplusplus.gui.projection.equal_earth=等地球
+terraplusplus.gui.projection.bte_conformal_dymaxion=BuildTheEarth正形戴美克森
+terraplusplus.gui.projection.dymaxion=戴美克森(非BTE！)
+terraplusplus.gui.projection.conformal_dymaxion=正形戴美克森
+terraplusplus.gui.projection.azimuthal_equidistant=方位等距
+terraplusplus.gui.projection.azimuthal_equidistant.centerX=原始經度
+terraplusplus.gui.projection.azimuthal_equidistant.centerY=原始緯度
+terraplusplus.gui.projection.lambert_azimuthal=蘭伯特方位
+terraplusplus.gui.projection.lambert_azimuthal.centerX=原始經度
+terraplusplus.gui.projection.lambert_azimuthal.centerY=原始緯度
+terraplusplus.gui.projection.stereographic=球面
+terraplusplus.gui.projection.stereographic.centerX=原始經度
+terraplusplus.gui.projection.stereographic.centerY=原始緯度
+terraplusplus.gui.projection.stereographic.radius=半徑
+
+## command messages
+terraplusplus.command.tpll.usage=用法：/tpll <緯度> <經度> [高度]
+terraplusplus.command.tpll.others.usage=用法：/tpll [目標玩家] <緯度> <經度> [高度]
+
+terraplusplus.command.terra.usage=/terra
+
+terraplusplus.command.terra.gensettings=生成器設定：
+terraplusplus.command.terra.latlon=緯 經：%.7f %.7f
+terraplusplus.command.terra.xy=x y：%.7f %.7f
+terraplusplus.command.terra.environment=%.1f °C；%.1f 毫米/年；土壤id：%d
+terraplusplus.command.terra.tissot= ~%.5f 方塊/公尺 ± %.5f°
+
+terraplusplus.command.terra.title=Terra++指令
+
+## fragment messages
+terraplusplus.fragment.help.purpose=列出所有指令
+
+terraplusplus.fragment.terra.where.purpose=顯示玩家所處世界位置
+terraplusplus.fragment.terra.where.notproj=位置不在投影範圍內！
+terraplusplus.fragment.terra.world.purpose=顯示世界投影法設定
+terraplusplus.fragment.terra.osm.purpose=在地圖上顯示當前位置
+terraplusplus.fragment.terra.info.purpose=Terra++資訊
+terraplusplus.fragment.terra.convert.purpose=轉換[x,z]至[緯,經]，轉換[緯,經]至[x,z]
+terraplusplus.fragment.terra.environment.purpose=顯示環境資料
+terraplusplus.fragment.terra.distortion.purpose=顯示當前世界變形量
+
+terraplusplus.fragment.terra.world.header=世界投影法設定：
+
+## command errors
+terraplusplus.error.notcc=必須在Cubic Chunks世界！
+terraplusplus.error.notterra=必須在Terra 1 to 1世界！
+terraplusplus.error.playeronly=請指定玩家或由玩家來執行！
+terraplusplus.error.numbers=所有引數都必須是數字！
+terraplusplus.error.getcoords=取得座標失敗！
+terraplusplus.error.notplayer=你不是玩家，請指定一個！
+terraplusplus.error.unknownplayer=無法在伺服器上找到該玩家！
+terraplusplus.error.notopothers=需要OP才能取得其他玩家的資訊！
+terraplusplus.error.notop=使用此指令需要權限或OP！
